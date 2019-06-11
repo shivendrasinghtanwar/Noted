@@ -8,6 +8,6 @@ app.use('/bootstrap', express.static(__dirname + '/App/bootstrap'));
 
 
 app.get('/', (req, res) => res.sendFile(__dirname + "/App/index.html"))
-app.get('/editor', (req, res) => res.sendFile(__dirname + "/App/editor.html"))
+app.get('/editor.html', (req, res) => res.sendFile(__dirname + "/App/editor.html"))
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
