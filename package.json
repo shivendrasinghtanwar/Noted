@@ -18,7 +18,7 @@
         "electron": "^5.0.3"
     },
     "dependencies": {
-        "alloyeditor": "^2.0.6",
+        "ckeditor": "^4.11.4",
         "express": "^4.17.1"
     }
 }
