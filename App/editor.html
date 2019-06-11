@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded&display=swap" rel="stylesheet">
+    <script src="vendor/ckeditor/ckeditor.js"></script>
 </head>
 
 <body>
@@ -17,22 +18,19 @@
         </div>
     </div>
 
-    <div id="editor">
-    </div>
-
-    <div class="container" style="color:white">
+    <div class="container" style="color:white;border: 1px solid white">
         <div class="row">
-
+            <div id="editor2" contenteditable="true">
+                <p>
+                    Write Here!
+                </p>
+            </div>
         </div>
     </div>
 
     <script type="text/javascript" src="bootstrap/js/jquery.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 
-    <!-- Load React. -->
-    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-    <script type="text/javascript" src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-    <script type="text/javascript" src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
     <!-- editor Js -->
     <script type="text/javascript" src="js/editor.js"></script>
 </body>
