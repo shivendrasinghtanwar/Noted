@@ -15,7 +15,7 @@ npm
 
     npm -v
     
-The verions I am working are - node(v8.14.0) and npm(6.4.1)
+The verions I am using are - node(v8.14.0) and npm(6.4.1)
 
 Clone the repo - Duh!
 
