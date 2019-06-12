@@ -13,3 +13,14 @@
     border: 1px solid white;
     margin-top: 40px;
 }
+
+#btnRow {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+#btnRow a {
+    color: white;
+    text-decoration: none;
+}
