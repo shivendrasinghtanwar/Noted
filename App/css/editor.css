@@ -1,0 +1,15 @@
+#editor:onfocus {
+    border: 1px red solid;
+    outline: none !important;
+}
+
+#editor {
+    min-height: 150px;
+    padding: 10px;
+}
+
+#editorContainer {
+    color: white;
+    border: 1px solid white;
+    margin-top: 40px;
+}

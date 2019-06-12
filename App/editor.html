@@ -5,24 +5,23 @@
     <title>Editor</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/editor.css">
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded&display=swap" rel="stylesheet">
     <script src="vendor/ckeditor/ckeditor.js"></script>
 </head>
 
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <div class="row" style="text-align:center;">
             <h2>
                 The Editor!
             </h2>
         </div>
-    </div>
+    </div> -->
 
-    <div class="container" style="color:white;border: 1px solid white">
-        <div class="row">
-            <div id="editor" contenteditable="true">
-                Write Here!
-            </div>
+    <div class="container" id="editorContainer">
+        <div class="row" id="editor" contenteditable="true">
+            Write Here!
         </div>
     </div>
 
