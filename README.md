@@ -1,4 +1,4 @@
-# Noted
+# Noted!
 Fast, Simple and Cross Platform Notes taking app with some additional features!
 
 ## Setting Up Deveopent Environment
@@ -35,16 +35,16 @@ As I have listed electron js as one of them you will not need to install it expl
 
 ## Running the App
 
-This process is bound to change really soon.
+This process is bound to change real soon.
 
-In your project folder
+In your project folder type
 
     npm run node
     
 This will start the node server
 
-Open another terminal tab and move to the project folder and type
+Open another terminal tab and move to the project directory again and type
 
     npm start
     
-This will start the electron app with the node server hosted pages inside it.
+This will start the app. Now Have Fun! :)

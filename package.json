@@ -8,7 +8,7 @@
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "electron .",
+        "start": "electron main.js",
         "node": "nodemon server.js",
         "watch": "watch 'npm start'"
     },
