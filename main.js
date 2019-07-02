@@ -6,13 +6,24 @@ function createWindow() {
     let win = new BrowserWindow({
         width: 800,
         height: 600,
+        // transparent: true,
+        frame: true,
+        show: false,
+        darkTheme: true,
+        titleBarStyle: "hidden",
         webPreferences: {
             nodeIntegration: true
         }
     })
 
+
+
     // and load the index.html of the app.
     win.loadURL('http://localhost:3000')
+
+    win.once('ready-to-show', () => {
+        win.show()
+    })
 
     // Open the DevTools.
     // win.webContents.openDevTools()
