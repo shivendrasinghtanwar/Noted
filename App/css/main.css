@@ -6,9 +6,9 @@ html {
 }
 
 body {
-    background-color: transparent;
+    background-color: transparent !important;
     color: White;
-    font-family: 'Encode Sans Expanded', sans-serif;
+    font-family: 'Encode Sans Expanded', sans-serif !important;
 }
 
 #addIcon {

@@ -1,10 +1,7 @@
-#editor:onfocus {
-    border: 1px red solid;
-    outline: none !important;
-}
 
 #editor {
-    min-height: 150px;
+    min-height: 450px;
+    font-size: 25px;
     padding: 10px;
 }
 
@@ -16,11 +13,25 @@
 
 #btnRow {
     text-align: center;
+    justify-content: center;
     margin-top: 10px;
     font-size: 30px;
+    color: white;
 }
 
 #btnRow a {
     color: white;
     text-decoration: none;
+}
+
+#btnRow span{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.downloadPage{
+    /* background: rgb(69, 9, 121);
+    background: linear-gradient(120deg, rgba(69, 9, 121, 1) 9%, rgba(19, 159, 232, 1) 100%);
+    background-repeat: no-repeat; */
+    background-color: #000000;
 }
