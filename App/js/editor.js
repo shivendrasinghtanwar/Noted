@@ -1,10 +1,11 @@
-CKEDITOR.config.height = 800;
-CKEDITOR.config.width = 'auto';
-CKEDITOR.disableAutoInline = true;
-CKEDITOR.inline('editor');
+// CKEDITOR.config.height = 800;
+// CKEDITOR.config.width = 'auto';
+// CKEDITOR.disableAutoInline = true;
+// CKEDITOR.inline('editor');
 
 
 var editor = document.getElementById("editor");
+var textArea = document.getElementById("txtArea");
 
 /**
  * Button row 
@@ -30,20 +31,37 @@ var saveIcon = document.getElementById("saveIcon");
 
 saveIcon.style.cursor = 'pointer';
 saveIcon.onclick = function() {
-    var data = CKEDITOR.instances.editor.getData();
-    console.log(data);  
 
-    editor.classList.add('downloadPage');
-    html2canvas(editor, {
+    console.log(textArea.innerHTML);
+    console.log(textArea.value);
+
+
+    // editor.classList.add('downloadPage');
+    // html2canvas(editor, {
+    //     allowTaint: true,
+    //     onrendered: function(canvas) {
+    //         //
+    //         canvas.classList.add('downloadPage');
+    //         canvas.toBlob(function(blob) {
+    //             // Generate file download
+    //             // window.open(canvas.toDataURL());
+    //             saveAs(blob, "yourwebsite_screenshot.jpeg");
+    //             editor.classList.remove('downloadPage');
+    //         });
+    //     },
+    // });
+
+    textArea.value.replace(/\n/gi,'<br>')
+    html2canvas(textArea, {
         allowTaint: true,
         onrendered: function(canvas) {
             //
-            canvas.classList.add('downloadPage');
+            // canvas.classList.add('downloadPage');
             canvas.toBlob(function(blob) {
                 // Generate file download
                 // window.open(canvas.toDataURL());
-                saveAs(blob, "yourwebsite_screenshot.jpeg");
-                editor.classList.remove('downloadPage');
+                saveAs(blob, "screenshot2.jpeg");
+                // editor.classList.remove('downloadPage');
             });
         },
     });
