@@ -1,4 +1,6 @@
+
 const { app, BrowserWindow } = require('electron')
+
 
 
 function createWindow() {
@@ -19,7 +21,7 @@ function createWindow() {
 
 
     // and load the index.html of the app.
-    win.loadURL('http://localhost:3000')
+    win.loadURL("file://" + __dirname + "/App/index.html");
 
     win.once('ready-to-show', () => {
         win.show()

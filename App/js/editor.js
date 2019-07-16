@@ -3,7 +3,6 @@
 // CKEDITOR.disableAutoInline = true;
 // CKEDITOR.inline('editor');
 
-
 var editor = document.getElementById("editor");
 var textArea = document.getElementById("txtArea");
 

@@ -2,3 +2,5 @@ node_modules
 .cache
 
 App/dist/
+
+yarn-error.log
