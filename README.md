@@ -1,50 +1,28 @@
-# Noted!
-Fast, Simple and Cross Platform Notes taking app with some additional features!
+<!-- # Noted
 
-## Setting Up Deveopent Environment
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
-Install [node](https://nodejs.org/en/)
+## Development server
 
-After installing check your version of -
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-node 
+## Code scaffolding
 
-    node -v
-    
-npm
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-    npm -v
-    
-The verions I am using are - node(v8.14.0) and npm(6.4.1)
+## Build
 
-Clone the repo - Duh!
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-    git clone https://github.com/shivendrasinghtanwar/Noted.git
+## Running unit tests
 
-Move to the project folder!
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-    cd wherever/you/cloned/this
+## Running end-to-end tests
 
-Initialize node modules
-    
-    npm install
-    
-This is will install all the project dependencies 
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-As I have listed electron js as one of them you will not need to install it explicity
+## Further help
 
-## Running the App
-
-This process is bound to change real soon.
-
-In your project folder type
-
-    npm run node
-    
-This will start the node server
-
-Open another terminal tab and move to the project directory again and type
-
-    npm start
-    
-This will start the app. Now Have Fun! :)
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+ -->

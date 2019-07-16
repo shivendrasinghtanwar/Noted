@@ -21,7 +21,8 @@ function createWindow() {
 
 
     // and load the index.html of the app.
-    win.loadURL("file://" + __dirname + "/App/index.html");
+    // win.loadURL("file://" + __dirname + "/src/index.html");
+    win.loadURL("file://"+__dirname+"/dist/Noted/index.html");
 
     win.once('ready-to-show', () => {
         win.show()
