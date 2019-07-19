@@ -13,12 +13,14 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif; 
   background: rgb(69, 9, 121);
   background: linear-gradient(120deg, rgba(69, 9, 121, 1) 9%, rgba(19, 159, 232, 1) 100%);
-  overflow: hidden;
+  overflow-x: hidden;
   justify-content: center;
   display: flex;
 }
 
-app-root, app-adder{
+app-root{
+
+  flex-direction: column;
   display: flex;
   width: 100%;
 }

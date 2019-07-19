@@ -3,3 +3,27 @@ fa-plus-circle{
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 
 }
+
+#editorDiv{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+#editorDiv textarea{
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    outline: none !important;
+    border: 2px solid white;
+    height: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#editorOptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

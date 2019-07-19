@@ -1,1 +1,13 @@
-<fa-icon [icon]="faPlusCircle" size="6x"></fa-icon>
+<fa-icon [icon]="faPlusCircle" size="6x" (click)="toggleClickedAddIcon()" *ngIf="!clickedAdd"></fa-icon>
+
+
+<div *ngIf="clickedAdd" id="editorDiv">
+        <form [formGroup]="editorForm">
+        <textarea id="editorArea" fromControlName="content"></textarea>
+        <div id="editorOptions">
+            <fa-icon [icon]="faBackspace" size="lg"  (click)="toggleClickedAddIcon()" ></fa-icon>
+            <fa-icon [icon]="faSave" size="lg"  (click)="saveFile()" ></fa-icon>
+        </div>
+
+</form>
+</div>
